@@ -63,12 +63,3 @@ var Corridor_classified = Sentinel_S2_SR.select(S2bands).classify(classifier_RF_
 Map.addLayer(Corridor_classified, {min: ..., max: ..., palette: ['FAED29', '8505F0', 'FC24F9','B9B4B9','F90F3D','F9760F',
                                                                 '0F8E1C','49EE35']}, 'Corridor_LULC');
 //,'0D21E9','58595B','F8980D','F86DAA','66099C','34BA5B'
-//Export
-Export.image.toDrive({
-  image: Corridor_classified,
-  description: 'Classified_corridor',
-  folder: 'corridor',  
-  region: aoi, 
-  scale: 10,
-  maxPixels: 1e13,
-}); 
