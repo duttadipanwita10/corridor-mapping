@@ -1,5 +1,5 @@
 # corridor-mapping
-Mapping the corridors between the protected areas in Northe-Bengal
+Mapping the corridors between the protected areas in North-Bengal
 //This script can be used for mapping-classifying the landscape of a specific region using field points
 //Author: Dipanwita Dutta
 //Date: 2023-2024
